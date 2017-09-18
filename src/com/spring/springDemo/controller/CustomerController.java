@@ -59,7 +59,6 @@ public class CustomerController {
 		return "Cutomer-form";
 	}
 	
-	
 	@GetMapping("/delete")
 	public String showfordelete(@RequestParam("customerId")int id){
 		
